@@ -1,0 +1,114 @@
+{
+    "title": "Sondage Structure logicielle",
+    "forms": [
+        {
+            "header": "Identification",
+            "fields": [
+                {
+                    "id": "firstName",
+                    "label": "Prénom",
+                    "type": "text"
+                },
+                {
+                    "id": "lastName",
+                    "label": "Nom",
+                    "type": "text"
+                },
+                {
+                    "id": "emailAddress",
+                    "label": "Courriel",
+                    "type": "email"
+                }
+            ]
+        },
+        {
+            "header": "Appréciation",
+            "fields": [
+                {
+                    "id": "content",
+                    "label": "Quantité de matière présenté",
+                    "type": "select",
+                    "options": [
+                        {
+                            "value": 0,
+                            "label": "Veuillez sélectionner une option"
+                        },
+                        {
+                            "value": 1,
+                            "label": "Insuffisant"
+                        },
+                        {
+                            "value": 2,
+                            "label": "Suffisant"
+                        },
+                        {
+                            "value": 3,
+                            "label": "Exagéré"
+                        }
+                    ]
+                },
+                {
+                    "id": "speed",
+                    "label": "Le débit des présentations et exercices",
+                    "type": "select",
+                    "options": [
+                        {
+                            "value": 0,
+                            "label": "Veuillez sélectionner une option"
+                        },
+                        {
+                            "value": 1,
+                            "label": "Insuffisant"
+                        },
+                        {
+                            "value": 2,
+                            "label": "Suffisant"
+                        },
+                        {
+                            "value": 3,
+                            "label": "Exagéré"
+                        }
+                    ]
+                },
+                {
+                    "id": "teacher",
+                    "label": "Communication et encadrement du professeur",
+                    "type": "select",
+                    "options": [
+                        {
+                            "value": 0,
+                            "label": "Veuillez sélectionner une option"
+                        },
+                        {
+                            "value": 1,
+                            "label": "Passable"
+                        },
+                        {
+                            "value": 2,
+                            "label": "Bien"
+                        },
+                        {
+                            "value": 3,
+                            "label": "Excellent"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "Commentaire",
+            "fields": [
+                {
+                    "id": "comment",
+                    "label": "Commentaire",
+                    "type": "textarea"
+                },
+                {
+                    "id": "suggestion",
+                    "label": "Suggestion",
+                    "type": "textarea"
+                }
+            ]
+        }
+    ]
+}
